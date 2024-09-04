@@ -11,67 +11,429 @@
 
 </head>
 
-<body class="mx-[100px] mt-10">
-    <!-- NAVIGATION -->
-    <header>
-        <nav class="flex items-center">
-            <img class="h-[32px] w-[130px]" src="./img//logoo 2.png" alt="">
-            <ul class="flex items-center text-sm ml-[65px] font-medium gap-5">
-                <li>
-                    <a href="" class="text-primary">Sale</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Rent</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Preleased</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Commercial</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">New Projects</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Bussinesses For Sale</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Area Guides</a>
-                </li>
-                <li>
-                    <a href="" class="text-fontColor">Contact us</a>
-                </li>
-                <li>
-                    <button class="py-[10px] w-[200px] bg-bg1 text-white rounded-3xl ">Submit property <span
-                            class="bg-white text-bg1 px-[10px] rounded-2xl ml-1">free</span></button>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<body>
+    <div class="mx-[100px] mt-10">
+        <!-- NAVIGATION -->
+        <header>
+            <nav class="flex items-center">
+                <img class="h-[32px] w-[130px]" src="./img//logoo 2.png" alt="">
+                <ul class="flex items-center text-sm ml-[65px] font-medium gap-[25px]">
+                    <li>
+                        <a href="" class="text-primary">Sale</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Rent</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Preleased</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Commercial</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">New Projects</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Bussinesses For Sale</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Area Guides</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-fontColor">Contact us</a>
+                    </li>
+                    <li>
+                        <button class="py-[10px] w-[200px] bg-bg1 text-white rounded-3xl ">Submit property <span
+                                class="bg-white text-bg1 px-[10px] rounded-2xl ml-1">free</span></button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- BANNER -->
-    <div class="relative mt-10">
-        <div class="absolute inset-0 bg-black rounded-3xl opacity-70"></div>
-        <img class="rounded-md w-full h-auto" src="./img/banner.png" alt="Banner Image">
-        <div class="absolute inset-0 ml-20 flex flex-col justify-center text-start p-4">
-            <h1 class="text-4xl font-semibold text-white mb-4">Blog</h1>
-            <p class="text-[#d2d2d2] text-base max-w-[630px] mb-4">
-                Find the latest real estate news and market trend insights from around UAE, as well as access the latest
-                updates and media releases from RGEstate.com.
-            </p>
-            <div class="flex text-sm items-center text-white">
-                <h3 class="inline-block">Home</h3>
-                <span class="mx-2 flex items-center">
-                    <img class="h-[11px] w-[5px]" src="./img/arrow.png" alt="">
-                    <img class="h-[11px] w-[5px]" src="./img/arrow.png" alt="">
-                </span>
-                <h3 class="flex items-center text-orange-400">Blog
-                    <img class="h-[11px] w-[5px] ml-[10px]" src="./img/arrow.png" alt="">
-                </h3>
+        <!-- BANNER -->
+        <div class="relative mt-10">
+            <div class="absolute inset-0 bg-black rounded-3xl opacity-70"></div>
+            <img class="rounded-md w-full h-auto" src="./img/banner.png" alt="Banner Image">
+            <div class="absolute inset-0 ml-20 flex flex-col justify-center text-start p-4">
+                <h1 class="text-4xl font-semibold text-white mb-4">Blog</h1>
+                <p class="text-[#d2d2d2] text-base max-w-[630px] mb-4">
+                    Find the latest real estate news and market trend insights from around UAE, as well as access the
+                    latest
+                    updates and media releases from RGEstate.com.
+                </p>
+                <div class="flex text-sm items-center text-white">
+                    <h3 class="inline-block">Home</h3>
+                    <span class="mx-2 flex items-center">
+                        <img class="h-[11px] w-[5px]" src="./img/arrow.png" alt="">
+                        <img class="h-[11px] w-[5px]" src="./img/arrow.png" alt="">
+                    </span>
+                    <h3 class="flex items-center text-orange-400">Blog
+                        <img class="h-[11px] w-[5px] ml-[10px]" src="./img/arrow.png" alt="">
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
 
+        <div class="my-[70px]">
+            <div class="flex items-center justify-between">
+                <ul class="flex items-center gap-12 text-base text-fontColor">
+                    <li class="relative inline-block text-primary">
+                        Blog
+                        <!-- <span class="absolute bottom-0 left-0 w-full h-[2px] bg-orange-500"></span> -->
+                    </li>
+                    <li class="relative inline-block">Advice</li>
+                    <li class="relative inline-block">Reviews</li>
+                    <li class="relative inline-block">Real Estate</li>
+                </ul>
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        class="bg-transparent border-l border-fontColor px-[10px] focus:outline-none placeholder:text-fontColor"
+                        placeholder="Enter the KeyWords here">
+                    <span class="h-9 w-9 rounded-full bg-white shadow-lg p-1 flex items-center justify-center">
+                        <i class="fa-solid fa-magnifying-glass text-[#00699E]"></i>
+                    </span>
+                </div>
+            </div>
+            <hr class="w-full relative mt-4 h-[1px] bg-[#A6A6A6]">
+        </div>
+        
+        
+        
+
+        <!-- content section -->
+
+        <section class="grid grid-cols-[2fr_1fr] gap-10">
+            <div class="flex flex-col gap-9">
+
+                <!-- 1st card -->
+                <div class="rounded-lg shadow-lg flex bg-white">
+                    <img src="./img/blog-1 1.png" class=" rounded-lg h-80 w-80 object-cover" alt="">
+                    <div class="pl-[21px] pr-6 pt-6 ">
+                        <div class="flex justify-between items-center">
+                            <div class="flex my-4 items-center">
+                                <span class="bg-primary px-4 py-2 rounded-lg text-sm font-medium text-white">Bussinesses
+                                    Relator
+                                    Work</span>
+                                <span class="text-fontColor text-base">
+                                    <i class="fa-solid fa-calendar-days mx-2"></i>
+                                    Jan 3,2024</span>
+                            </div>
+                            <i class="fa-solid text-primary fa-share-nodes"></i>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-primary font-semibold text-2xl">How to Maximize Profits with Dubai Warehouse
+                                Investments</h1>
+                            <p class="text-fontColor text-base">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                                accusantium
+                                doloremque laudantium, totam rem aperiam, totam rem aperiam</p>
+                            <div class="flex justify-between items-center gap-2 text-base">
+                                <span class="text-primary font-medium">
+                                    <a href="">Read more
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <h4 class="text-font2nd">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    Post a Comment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-lg flex bg-white">
+                    <img src="./img/blog-2 1.png" class=" rounded-lg h-80 w-80 object-cover" alt="">
+                    <div class="pl-[21px] pr-6 pt-6 ">
+                        <div class="flex justify-between items-center">
+                            <div class="flex my-4 items-center">
+                                <span class="bg-primary px-4 py-2 rounded-lg text-sm font-medium text-white">Bussinesses
+                                    Relator
+                                    Work</span>
+                                <span class="text-fontColor text-base">
+                                    <i class="fa-solid fa-calendar-days mx-2"></i>
+                                    Jan 3,2024</span>
+                            </div>
+                            <i class="fa-solid text-primary fa-share-nodes"></i>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-primary font-semibold text-2xl">How to Maximize Profits with Dubai Warehouse
+                                Investments</h1>
+                            <p class="text-fontColor text-base">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                                accusantium
+                                doloremque laudantium, totam rem aperiam, totam rem aperiam</p>
+                            <div class="flex justify-between items-center gap-2 text-base">
+                                <span class="text-primary font-medium">
+                                    <a href="">Read more
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <h4 class="text-font2nd">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    Post a Comment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-lg flex bg-white">
+                    <img src="./img/blog-3 1.png" class=" rounded-lg h-80 w-80 object-cover" alt="">
+                    <div class="pl-[21px] pr-6 pt-6 ">
+                        <div class="flex justify-between items-center">
+                            <div class="flex my-4 items-center">
+                                <span class="bg-primary px-4 py-2 rounded-lg text-sm font-medium text-white">Bussinesses
+                                    Relator
+                                    Work</span>
+                                <span class="text-fontColor text-base">
+                                    <i class="fa-solid fa-calendar-days mx-2"></i>
+                                    Jan 3,2024</span>
+                            </div>
+                            <i class="fa-solid text-primary fa-share-nodes"></i>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-primary font-semibold text-2xl">How to Maximize Profits with Dubai Warehouse
+                                Investments</h1>
+                            <p class="text-fontColor text-base">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                                accusantium
+                                doloremque laudantium, totam rem aperiam, totam rem aperiam</p>
+                            <div class="flex justify-between items-center gap-2 text-base">
+                                <span class="text-primary font-medium">
+                                    <a href="">Read more
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <h4 class="text-font2nd">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    Post a Comment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-lg flex bg-white">
+                    <img src="./img/blog-4 1.png" class=" rounded-lg h-80 w-80 object-cover" alt="">
+                    <div class="pl-[21px] pr-6 pt-6 ">
+                        <div class="flex justify-between items-center">
+                            <div class="flex my-4 items-center">
+                                <span class="bg-primary px-4 py-2 rounded-lg text-sm font-medium text-white">Bussinesses
+                                    Relator
+                                    Work</span>
+                                <span class="text-fontColor text-base">
+                                    <i class="fa-solid fa-calendar-days mx-2"></i>
+                                    Jan 3,2024</span>
+                            </div>
+                            <i class="fa-solid text-primary fa-share-nodes"></i>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-primary font-semibold text-2xl">How to Maximize Profits with Dubai Warehouse
+                                Investments</h1>
+                            <p class="text-fontColor text-base">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                                accusantium
+                                doloremque laudantium, totam rem aperiam, totam rem aperiam</p>
+                            <div class="flex justify-between items-center gap-2 text-base">
+                                <span class="text-primary font-medium">
+                                    <a href="">Read more
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <h4 class="text-font2nd">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    Post a Comment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="flex flex-col">
+                <div class="h-12 mb-9 border border-[#A6A6A6] rounded-lg flex overflow-hidden">
+                    <input type="text" placeholder="Enter the KeyWords here..."
+                        class="w-full outline-none border-none pl-3">
+                    <button class="h-full bg-primary w-12 flex items-center justify-center">
+                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    </button>
+                </div>
+                <h3 class="text-lg font-semibold text-primary">
+                    <span class="underline underline-offset-[10px] decoration-[2px] decoration-black">Recent</span>
+                    <span>Post</span>
+                </h3>
+                <div>
+                    <div class="mt-7">
+                        <div class="flex items-center">
+                            <img src="./img/istockphoto-1373247868-612x612 1.png" class="object-cover" alt="">
+                            <div class="w-[189px] ml-5">
+                                <h3 class="text-base font-semibold text-[#231F20]">Former insures only the marine perils
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <div class="flex items-center text-fontColor">
+                                        <span class="text-fontColor text-sm">
+                                            <i class="fa-solid fa-calendar-days mx-1 h-5 w-4"></i>
+                                            Jan 3,2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="w-full mt-5 h-[1px] bg-[#A6A6A6]">
+                    </div>
+                    <div class="mt-7">
+                        <div class="flex items-center">
+                            <img src="./img/istockphoto-2160810158-612x612 1.png" class="object-cover" alt="">
+                            <div class="w-[189px] ml-5">
+                                <h3 class="text-base font-semibold text-[#231F20]">Former insures only the marine perils
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <div class="flex items-center text-fontColor">
+                                        <span class="text-fontColor text-sm">
+                                            <i class="fa-solid fa-calendar-days mx-1 h-5 w-4"></i>
+                                            Jan 3,2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="w-full mt-5 h-[1px] bg-[#A6A6A6]">
+                    </div>
+                    <h3 class="text-lg my-10 font-semibold text-primary">
+                        <span class="underline underline-offset-[10px] decoration-[2px] decoration-black">Recent</span>
+                        <span>Post</span>
+                    </h3>
+                    <div class="grid grid-cols-3 text-center gap-[10px]">
+                        <span class="border py-2 text-fontColor border-fontColor rounded-md">Bussiness</span>
+                        <span class="border py-2 text-fontColor border-fontColor rounded-md">Consulting</span>
+                        <span class="border py-2 text-fontColor border-fontColor rounded-md">Managment</span>
+                        <span class="border py-2 text-fontColor border-fontColor rounded-md">Bussiness</span>
+                        <span class="border py-2 text-fontColor border-fontColor rounded-md">Consulting</span>
+                    </div>
+                    <div class="relative bg-primary mt-6">
+                        <img src="./img/Vector (1).png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                        <img src="./img/widget-about-man 1.png" alt="" class="relative z-10">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-[70px] flex justify-center">
+            <div class="relative w-full h-[275px] rounded-lg overflow-hidden shadow-lg">
+                <img src="./img/piotr-chrobot-6oUsyeYXgTg-unsplash 1.png" class="w-full h-full object-cover" alt="">
+                <div class="absolute inset-0 bg-[#06364E] opacity-80"></div>
+                <div class="absolute inset-0 flex items-center px-8 space-x-8">
+                    <div class="text-white">
+                        <h1 class="text-3xl font-bold leading-tight">
+                            Get the Latest News & Offers
+                        </h1>
+                        <p class="mt-2 text-base">
+                            We’ll send you a nice letter with the latest posts once per week. No Spam.
+                        </p>
+                    </div>
+                    <div class="flex w-full max-w-md">
+                        <div class="relative flex items-center w-full max-w-md">
+                            <i class="fa-solid fa-envelope absolute left-3 text-primary"></i>
+                            <input type="email" placeholder="Enter your email"
+                                class="flex-grow pl-10 p-3 rounded-l-lg outline-none text-gray-700">
+                        </div>
+                        <button
+                            class="bg-[#EF7D28] text-white p-3 rounded-r-lg font-semibold hover:bg-[#005ea1] transition-colors">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <hr class="w-full my-[70px] h-[1px] bg-[#656865]">
+
+    <footer class="bg-white text-primary pt-6">
+        <div class="mt-[70px]">
+            <div class="flex flex-col mx-[100px] md:flex-row justify-between">
+                <div class="flex w-[420px] flex-col md:flex-col">
+                    <div class="flex items-center">
+                        <img src="./img/logoo 2.png" alt="RGEstate Logo" class="h-8 mb-8">
+                    </div>
+                    <p class="text-sm text-fontColor mb-4">
+                        Riveria Global Group of companies is a consortium of companies offering comprehensive Real
+                        Estate Brokerage, integrated Interior Designing and applicable Advertising services.
+                    </p>
+                    <div class="flex space-x-2 mt-4">
+                        <a href="#" class="text-white bg-primary h-8 w-8 flex items-center justify-center rounded-full">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white bg-primary h-8 w-8 flex items-center justify-center rounded-full">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white bg-primary h-8 w-8 flex items-center justify-center rounded-full">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white bg-primary h-8 w-8 flex items-center justify-center rounded-full">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h3 class="text-lg mb-5 font-bold">Quick Links</h3>
+                    <ul class="list-none space-y-2">
+                        <li><a href="#" class="text-fontColor">Buy</a></li>
+                        <li><a href="#" class="text-fontColor">New Project</a></li>
+                        <li><a href="#" class="text-fontColor">Sitemap</a></li>
+                        <li><a href="#" class="text-fontColor">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col">
+                    <h3 class="text-lg font-bold mb-5">Our Services</h3>
+                    <ul class="list-none space-y-2">
+                        <li><a href="#" class="text-fontColor">Project Funding</a></li>
+                        <li><a href="#" class="text-fontColor">Startups Funding</a></li>
+                        <li><a href="#" class="text-fontColor">Project Development</a></li>
+                        <li><a href="#" class="text-fontColor">Project Contracting</a></li>
+                        <li><a href="#" class="text-fontColor">Interior Fitouts</a></li>
+                        <li><a href="#" class="text-fontColor">Building Maintenance</a></li>
+                        <li><a href="#" class="text-fontColor">Business Buying & Selling</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <h3 class="text-lg font-bold">Address</h3>
+                    <ul class="list-none space-y-6 relative">
+                      <li>
+                        <div class="flex items-center space-x-4 mb-14">
+                          <div class="relative h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fa fa-map-marker fa-lg text-white"></i>
+                            <span class="absolute w-[2px] h-[60px] bg-blue-500 left-[50%] translate-x-[-50%] top-[32px] z-0"></span>
+                          </div>
+                          <span>Dubai, Al Mamzar, United Arab Emirates</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="flex items-center space-x-4 mb-14">
+                          <div class="relative h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fa fa-phone fa-lg text-white"></i>
+                            <span class="absolute w-[2px] h-[60px] bg-blue-500 left-[50%] translate-x-[-50%] top-[32px] z-0"></span>
+                          </div>
+                          <span>+91787808089</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="flex items-center space-x-4 mb-14">
+                          <div class="relative h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fa fa-envelope fa-lg text-white"></i>
+                          </div>
+                          <span>Contact@rgestate.com</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  
+                  
+                  
+
+            </div>
+            <p class="text-sm flex justify-center items-center mt-4 bg-primary text-white h-[65px] ">
+                © 2023 RGEstate. All Rights Reserved.
+            </p>
+    </footer>
 
 
     <script src="https://kit.fontawesome.com/2dfedb0ed0.js" crossorigin="anonymous"></script>

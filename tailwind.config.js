@@ -9,7 +9,7 @@ module.exports = {
         "fontColor":"#656865",
         'custom-gray': '#f5f5f5',
         "primary":"#00699E",
-        "smaillColor":"#A3ABA3",
+        "font2nd":"#A3ABA3",
         "bg1":"#333333"
         
       },
