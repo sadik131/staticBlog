@@ -64,8 +64,8 @@
 
     <div class="margin">
         <div class="position-relative bannerOverFlow mt-4">
-            <img class="img-fluid banner-image w-100 rounded" src="./img/banner.png" alt="Banner Image">
-            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75 rounded"></div>
+            <img class="img-fluid banner-image w-100" style="border-radius: 30px;" src="./img/banner.png" alt="Banner Image">
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75" style="border-radius: 30px;"></div>
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center  p-4">
                 <div class="ms-auto me-auto ms-lg-5 me-lg-0">
                     <h1 class="fontSize h4 h-lg-1 fw-semibold text-white mb-1 mb-lg-3">Blog</h1>        
@@ -107,17 +107,17 @@
                         placeholder="Enter the Keywords here">
                     <span
                         class="btn btn-light rounded-circle shadow-lg ms-2 d-flex align-items-center justify-content-center iconSize">
-                        <i class="fa-solid fa-magnifying-glass text-primary"></i>
+                        <i class="fa-solid fa-magnifying-glass magIcon text-primary"></i>
                     </span>
                 </div>
             </div>
             <hr class="w-100 my-3 border-secondary">
         </div>
 
-        <div class="">
-            <img src="./img/blog-1 1.png" class="w-100" style="object-fit: cover;" alt="">
+        <div class="expertSection">
+            <img src="./img/expert.png" class="w-100" style="object-fit: cover;" alt="">
             <div class="container dtlText">
-                <h3 class="text-primary my-5">“Touch Design For Mobile Interfaces” A News Smashing BookCreate An
+                <h3 class="text-primary mtb50">“Touch Design For Mobile Interfaces” A News Smashing BookCreate An
                     Information Wayaea Architecture Easy
                 </h3>
                 <p class="dtlParagrap">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -197,9 +197,9 @@
                     architecto beatae vitae dicta sunt explicabo. Nemo enim epsam voluptatem quia voluptas sit
                     aspernature
                 </p>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column flex-lg-row justify-content-between">
         
-                    <div class="d-flex flex-md-row gap-1 align-items-start align-items-md-center mb-2 mb-md-0">
+                    <div class="d-flex flex-wrap flex-md-row gap-1 align-items-start align-items-md-center mb-2 mb-md-0">
                         <h4 class="mb-1">Tags:</h4>
                         <span class="border border-bordersec text-fontColor px-2">Business</span>
                         <span class="border border-bordersec text-fontColor px-2">Consulting</span>
@@ -276,7 +276,7 @@
                         </div>
             
                         <div class="col">
-                            <div class="d-flex align-items-start">
+                            <div class="d-flex flex-row-reverse align-items-start">
                                 <img src="./img/istockphoto-1373247868-612x612 1.png" alt="" class="me-3">
                                 <div>
                                     <h6>Former insures only the marine perils</h6>
@@ -295,10 +295,10 @@
         </div>
 
     </div>
-    <div class="px-5 mt-5 background-image">
+    <div class="extraMargin background-image">
         <div class="row">
 
-            <div class="col-12 col-md-6 col-lg-5 d-none d-md-block">
+            <div class="col-12 col-md-6 col-lg-5 d-none getTouch d-lg-block">
                 <h2>GET IN TOUCH</h2>
                 <h1>Need Any Help? Or Looking For an Agent</h1>
                 <p>
@@ -323,56 +323,94 @@
             </div>
     
 
-            <div class="col-12 col-md-6 col-lg-7 form-section">
+            <div class="col-12 col-lg-6 col-lg-7 form-section">
                 <form>
                     <div class="row">
-            
                         <div class="col-md-6 mb-3">
-                            <div class="input-group-icon">
+                            <div class="position-relative">
                                 <i class="formIcon fa-regular fa-user"></i>
                                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <div class="input-group-icon">
+                            <div class="position-relative">
                                 <i class="formIcon fa-regular fa-envelope"></i>
                                 <input type="email" class="form-control" id="email" placeholder="Enter your email address">
                             </div>
                         </div>
                     </div>
-    
-                    <div class="row">
             
+                    <div class="row">
                         <div class="col-md-6 mb-3">
-                            <div class="input-group-icon">
+                            <div class="position-relative">
                                 <i class="formIcon fa-solid fa-phone"></i>
                                 <input type="tel" class="form-control" id="contact1" placeholder="Enter your contact number">
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <div class="input-group-icon">
+                            <div class="position-relative">
                                 <i class="formIcon fa-solid fa-phone-flip"></i>
                                 <input type="tel" class="form-control" id="contact2" placeholder="Select your service">
                             </div>
                         </div>
                     </div>
-    
-                    <div class="row">
             
+                    <div class="row">
                         <div class="col-12 mb-3">
                             <textarea class="form-control" id="message" rows="3" style="height: 250px;" placeholder="Enter your message"></textarea>
                         </div>
                     </div>
-    
-                    <button type="submit" class="btn btn-primary">SEND INQUIRY</button>
+            
+                    <button type="submit" class="btn bg-Color text-white">SEND INQUIRY</button>
                 </form>
             </div>
+            
         </div>
     </div>
     
-
-
-    <hr class="my-4 mx-auto custom-hr">
+    <section class="mt-5 d-flex justify-content-center px-0 px-lg-4">
+        <div class="position-relative w-100 max-w-6xl rounded-lg overflow-hidden shadow-lg" style="height: 275px;">
+            <!-- Background Image -->
+            <img src="./img/piotr-chrobot-6oUsyeYXgTg-unsplash 1.png" class="w-100 h-100 object-cover" alt="">
+            
+            <!-- Overlay -->
+            <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-dark opacity-75"></div>
+    
+            <!-- Content -->
+            <div class="position-absolute top-0 bottom-0 start-0 end-0 d-flex flex-column flex-md-row align-items-center justify-content-center px-4 px-md-5 text-white">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <!-- Text Content (45%) -->
+                        <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
+                            <h1 class="h2 font-bold">
+                                Get the Latest News & Offers
+                            </h1>
+                            <p class="mt-2 fs-6">
+                                We’ll send you a nice letter with the latest posts once per week. No Spam.
+                            </p>
+                        </div>
+    
+                        <!-- Spacer for 10% Gap -->
+                        <div class="col-12 d-none d-md-block col-md-1"></div>
+    
+                        <!-- Email Input and Button (45%) -->
+                        <div class="col-12 col-md-5">
+                            <div class="d-block d-lg-flex">
+                                <div class="position-relative flex-grow-1">
+                                    <i class="fa-solid fa-envelope position-absolute start-0 top-50 translate-middle-y text-primary ms-3"></i>
+                                    <input type="email" placeholder="Enter your email" class="subInput ps-5 py-2">
+                                </div>
+                                <button class="subBtn bg-orange text-white px-4 py-2 font-semibold ms-0" style="background-color: #EF7D28;">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
 
     <footer class="custom-bg text-custom-text-primary pt-5">
         <div class="container mt-5">
@@ -430,11 +468,11 @@
                     <h5 class="fw-bold">Address</h5>
                     <ul class="list-unstyled">
                         <li class="d-flex align-items-center mb-4 position-relative">
-                            <div class="bg-Color text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 36px; height: 36px;">
+                            <div class="bg-Color text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 36px; height: 36px; z-index: 1;">
                                 <i class="fa fa-map-marker-alt"></i>
                             </div>
                             <span>Dubai, Al Mamzar, United Arab Emirates</span>
-                            <div class="position-absolute" style="width: 2px; height: calc(100% + 20px); background-color: #00699E; left: 18px; top: 70px; transform: translateY(-50%); z-index: 0;"></div>
+                            <div class="position-absolute" style="width: 2px; height: calc(100% + 20px); background-color: #00699E; left: 18px; top: 50px; transform: translateY(-50%); z-index: 0;"></div>
                         </li>
                         <li class="d-flex align-items-center mb-4 position-relative">
                             <div class="bg-Color text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 36px; height: 36px; z-index: 1;">
@@ -456,8 +494,6 @@
                 
             </div>
         </div>
-
-        <hr class="my-4 custom-divider">
 
         <p class="text-center text-white bg-Color py-3 mb-0">
             © 2023 RGEstate. All Rights Reserved.

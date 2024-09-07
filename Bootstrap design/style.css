@@ -45,7 +45,7 @@
 }
 
 .userNav {
-    margin: 80px 0;
+    margin: 70px 0;
 }
 
 .iconSize {
@@ -163,7 +163,7 @@
 }
 
 .dtlText {
-    padding: 0 70px;
+    padding: 0 40px;
 }
 
 .dtlParagrap {
@@ -266,7 +266,58 @@
     padding: 20px;
 }
 
+.magIcon {
+    transform: rotate(90deg);
+}
 
+.mtb50 {
+    margin: 50px 0;
+}
+
+.extraMargin {
+    padding: 70px 100px;
+    margin: 70px 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.formIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.form-control {
+    padding: 10px 0px 10px 30px;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.getTouch {
+    padding: 0 50px;
+}
+
+.expertSection {
+    margin: 0 57px;
+}
+
+.subBtn{
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.subInput{
+    border: none;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -290,6 +341,13 @@
         .customNavbar {
             padding: 20px 50px;
         }
+        .subBtn{
+            border: none;
+        }
+        .subInput{
+            border: none;
+            width: 100%;
+        }
     }
 }
 
@@ -302,6 +360,13 @@
             padding: 10px 0px;
         }
 
+        .subBtn{
+            border: none;
+        }
+        .subInput{
+            border: none;
+            width: 100%;
+        }
         .dtlText {
             padding: 0 40px;
         }
@@ -340,12 +405,26 @@
         .margin {
             margin: 0 5px;
         }
+
+        .expertSection {
+            margin: 0 0px;
+        }
+
+        .extraMargin {
+            padding: 0px 10px;
+            margin: 30px 0;
+        }
+        .subBtn{
+            border: none;
+        }
+        .subInput{
+            border: none;
+            width: 100%;
+        }
     }
 }
 
 @media only screen and (max-width: 768px) {
-
-
     body {
         .dtlText {
             padding: 0 0;
@@ -353,6 +432,13 @@
 
         .postsIn {
             font-size: 11px;
+        }
+        .subBtn{
+            border: none;
+        }
+        .subInput{
+            border: none;
+            width: 100%;
         }
     }
 }
